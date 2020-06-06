@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+    max-width: 370px;
+    margin: 50px 10%;
+    display: block;
+}
+@media (max-width: 770px) {
+    .container{
+        margin: 0 10%;
+    }
+}
